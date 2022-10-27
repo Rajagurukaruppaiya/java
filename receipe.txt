@@ -1,0 +1,12 @@
+let h=document.getElementById("headid");
+let imgdiv=document.getElementById("divid");
+let image=document.getElementById("imgid");
+let ulist=document.getElementById("ulid");
+
+h.textContent=recipeObj.title;
+h.style.color="red";
+div1.classList.add("text-center");
+
+image.src=recipeObj.imgSrc;
+imgdiv.appendChild(image);
+image.style.width="50%";
